@@ -25,7 +25,7 @@ To run the application locally, follow these steps:
 1. Clone this repository to your local machine.
 
    ```
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/Happy-huh/weather-app.git
    ```
 
 2. Navigate to the project directory.
@@ -40,7 +40,7 @@ To run the application locally, follow these steps:
    npm install
    ```
 
-4. Get an API key from [OpenWeatherMap](https://openweathermap.org/api) and replace `YOUR_API_KEY` in `src/config.js` with your actual API key.
+4. Get an API key from [OpenWeatherMap](https://openweathermap.org/api) and replace `YOUR_API_KEY` with your actual API key.
 
 5. Start the development server.
 
