@@ -1,3 +1,77 @@
+# Interactive Weather App
+
+## Description
+
+This is an interactive weather application built using React. It provides users with real-time weather information for any location worldwide. Users can search for a specific location and view detailed weather forecasts, including current conditions, hourly forecasts, and a 7-day outlook.
+
+## Features
+
+- **Search**: Users can search for weather information by entering a city name or zip code.
+- **Current Weather**: Displays current weather conditions including temperature, humidity, wind speed, and weather description.
+- **Hourly Forecast**: Provides an hourly forecast for the next 24 hours, including temperature and weather conditions.
+- **7-Day Outlook**: Shows a 7-day weather forecast, including high and low temperatures, and weather icons.
+- **Responsive Design**: The app is designed to work seamlessly on desktop and mobile devices.
+
+## Technologies Used
+
+- React: Frontend library for building user interfaces.
+- OpenWeatherMap API: Used to fetch weather data.
+- CSS: Styling the components.
+
+## Getting Started
+
+To run the application locally, follow these steps:
+
+1. Clone this repository to your local machine.
+
+   ```
+   git clone https://github.com/yourusername/weather-app.git
+   ```
+
+2. Navigate to the project directory.
+
+   ```
+   cd weather-app
+   ```
+
+3. Install dependencies using npm or yarn.
+
+   ```
+   npm install
+   ```
+
+4. Get an API key from [OpenWeatherMap](https://openweathermap.org/api) and replace `YOUR_API_KEY` in `src/config.js` with your actual API key.
+
+5. Start the development server.
+
+   ```
+   npm run start
+   ```
+
+6. Open your web browser and navigate to `http://localhost:3000` to view the application.
+
+## Usage
+
+1. Enter a city name or zip code in the search bar and press Enter or click on the search button.
+2. View the current weather conditions along with detailed information.
+3. Navigate between the hourly forecast and the 7-day outlook using the tabs provided.
+<!--
+
+## Screenshots
+
+![Screenshot1](screenshots/screenshot1.png)
+![Screenshot2](screenshots/screenshot2.png) -->
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, improvements, or feature requests, please open an issue or submit a pull request.
+
+## Acknowledgments
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [OpenWeatherMap API Documentation](https://openweathermap.org/api)
+- [Create React App](https://create-react-app.dev/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
