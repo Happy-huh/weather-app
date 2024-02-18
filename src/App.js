@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="container">
       {currentWeather ? (
-        currentWeather.main.temp < 0 ? (
+        currentWeather.main.temp <= 3 ? (
           <img
             alt="weather"
             style={{
